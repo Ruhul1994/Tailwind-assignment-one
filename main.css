@@ -21,5 +21,8 @@
     .tag {
         @apply bg-[#5677AC26] text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded hover:bg-black hover:text-white transition-all cursor-pointer dark:text-white;
     }
+    .para{
+        @apply md:text-base text-sm text-[#616161] dark:text-gray-300;
+    }
     
 }
