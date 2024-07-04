@@ -15,6 +15,9 @@
 
         @apply text-[#333333] md:text-2xl text-xl font-semibold md:pt-8 pt-4 pb-4 dark:text-white;
     }
+    .news-head{
+        @apply bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 duration-300 cursor-pointer;
+    }
     .tag {
         @apply bg-[#5677AC26] text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded hover:bg-black hover:text-white transition-all cursor-pointer dark:text-white;
     }
