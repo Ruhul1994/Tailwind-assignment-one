@@ -4,7 +4,7 @@
 
 @layer utilities {
     .caption {
-        @apply bg-black text-white text-xs uppercase px-1.5 py-0.5 rounded-sm dark:text-white;
+        @apply bg-black text-white text-xs uppercase px-1.5 py-0.5 rounded-sm dark:text-white dark:bg-[#5677AC];
     }
 
     .news{
